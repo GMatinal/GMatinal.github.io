@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3876444 */
+  src: url('iconfont.woff2?t=1675262791182') format('woff2'),
+       url('iconfont.woff?t=1675262791182') format('woff'),
+       url('iconfont.ttf?t=1675262791182') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e638";
+}
+
+.icon-jiantou_xiangyou:before {
+  content: "\eb08";
+}
+
+.icon-codeforces:before {
+  content: "\e657";
+}
+
+.icon-arrowup:before {
+  content: "\e7ee";
+}
+
+.icon-dian:before {
+  content: "\ec1e";
+}
+
+.icon-twitter:before {
+  content: "\e882";
+}
+
+.icon-github-fill:before {
+  content: "\e885";
+}
+
+.icon-shizitu:before {
+  content: "\e672";
+}
+
+.icon-banquan:before {
+  content: "\e98b";
+}
+
+.icon-csdn:before {
+  content: "\e60c";
+}
+
+.icon-shizhong:before {
+  content: "\e74f";
+}
+
+.icon-zuobiaofill:before {
+  content: "\e768";
+}
+
+.icon-fanhui:before {
+  content: "\e6ff";
+}
+
+.icon-diandiandianshu:before {
+  content: "\e679";
+}
+
