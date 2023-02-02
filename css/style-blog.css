@@ -1,0 +1,50 @@
+.interval {
+    height: 60px;
+}
+.notice {
+    position: relative;
+    margin-top: 100px;
+    left: 50%;
+    margin-left: -550px;
+    width: 1100px;
+    height: 500px;
+    border-radius: 40px;
+    border: 1px solid var(--border-prussian-blue);
+    background-color: var(--bg-oxford-blue);
+}
+.notice h1 {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.notice .btn {
+    position: relative;
+    top: 300px;
+    left: 50%;
+    margin-left: -100px;
+    height: 60px;
+    width: 200px;
+    border-radius:60px;
+    overflow: hidden;
+}
+
+.notice .btn a {
+    display: block;
+    width: 100%;
+    height: 100%;    
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    background-image: var(--gradient-2);
+    background-size: 200%;
+    color: var(--white);
+    font-weight: var(--weight-bold);
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition-1);
+}
+
+.notice .btn a:hover {
+    background-position: right;
+}

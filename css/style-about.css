@@ -1,0 +1,238 @@
+
+/* 
+ *  ×ó°å¿é 
+ */
+
+.information {
+    float: left;
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    width: 610px;
+    height: 650px;
+    margin-left: -810px;
+    /* background-color: skyblue; */
+}
+
+/* 
+ * head sculpture Í·Ïñ 
+ */
+
+.information .hp {
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    width: 280px;
+    height: 280px;
+    border: 2px solid rgb(14,166,236);
+    border-radius: 50%;
+    background-color: #DEE1E6;
+    overflow: hidden;
+}
+
+.hp img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ * Nickname êÇ³Æ 
+ */
+
+.information .name {
+    position: absolute;
+    top: 310px;
+    left: 250px;
+    color: #0DBDDD;
+    font-size: 35px;
+}
+
+.information .englishN {
+    position: absolute;
+    top: 360px;
+    left: 280px;
+    color: #798CAA;
+    font-size: 30px;
+}
+
+.information .address {
+    position: absolute;
+    left: 290px;
+    top: 410px;
+    font-size: 20px;
+    color: #a0afc6;
+}
+
+.information .job {
+    position: absolute;
+    left: 295px;
+    top: 450px;
+    font-size: 20px;
+    color: #a0afc6;
+}
+
+/* 
+ * Social button (Éç½»°´Å¥) 
+ */
+
+.sb {
+    position: relative;
+    top: 500px;
+    left: 80px;
+    width: 520px;
+    height: 60px;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.wrapper .icon span{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #223044;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #798CAA;
+}
+
+.wrapper .icon span {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .icon:hover span {
+    color: #fff;
+}
+
+.wrapper .icon .tooltip {
+    position: absolute;
+    top: 0px;
+    background: var(--div-background-color);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -60px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper .icon .tooltip:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: var(--div-background-color);
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip:before {
+    background: #3B5999;
+}
+
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before {
+    background: #46C1F6;
+}
+
+.wrapper .Codeforces:hover span,
+.wrapper .Codeforces:hover .tooltip,
+.wrapper .Codeforces:hover .tooltip:before {
+    background: #e1306c;
+}
+
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before {
+    background: #333;
+}
+
+.wrapper .csdn:hover span,
+.wrapper .csdn:hover .tooltip,
+.wrapper .csdn:hover .tooltip:before {
+    background: #DE463B;
+}
+
+
+/* 
+ * introduce ½éÉÜ (ÓÒ°å¿é)
+ */
+
+.introduce {
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -100px;
+    width: 800px;
+}
+
+.introduce .interval {
+    height: 40px;
+}
+
+ /* ±êÌâ */
+
+.introduce h3 {
+    color: var(--text-columbia-blue);
+    font-size: 25px;
+    line-height: 50px;
+}
+
+ /* ÎÄÕÂ¶ÎÂä */
+
+.introduce p {
+    color: #a0afc6;
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.introduce .career p {
+    color: #a0afc6;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+
+
+
+
+
+

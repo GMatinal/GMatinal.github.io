@@ -1,0 +1,985 @@
+h3 {
+    color: var(--text-columbia-blue);
+}
+p {
+    color: #a0afc6;
+}
+.interval {
+    height: 60px;
+}
+
+/* 
+ * 头部盒子-主盒子-1 
+ */
+
+.head {
+    margin-top: 100px;
+    height: 500px;
+    width: auto;
+}
+
+/* 主盒子-1-描述 */
+
+.head div {
+    display: inline-block;
+    height: 500px;
+}
+
+.head .characters {
+    position: relative;
+    left: 50%;
+    margin-left: -620px;
+    width: 500px;
+}
+
+.head .characters h3,
+.head .characters h1,
+.head .characters p ,
+.head .characters .textbox{
+    position: absolute;
+}
+
+.head .characters h3 {
+    top: 60px;
+    left: 30px;
+    font-size: 30px;
+    color: #798CAA;
+}
+
+.head .characters h1 {
+    top: 110px;
+    left: 30px;
+    font-size: 60px;
+}
+
+.head .characters p {
+    top: 200px;
+    left: 25px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #a0afc6;
+}
+
+/* 文本框 */
+
+.head .characters .textbox {
+    top: 390px;
+    left: 30px;
+    height: 60px;
+    width: 390px;
+    border-radius: 10px;
+    border: 2px solid rgb(14,166,236);
+}
+
+.head .characters .textbox input {
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    width: 220px;
+    border: none;
+    top: 3px;
+    left: 10px;
+    color: var(--text-shadow-blue);
+    font-size: 20px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+/* 按钮样式 */
+
+.head .characters .textbox .btn {
+    position: absolute;
+    left: 260px;
+    top: 5px;
+    height: 45px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-image: var(--gradient-2);
+    background-size: 200%;
+    color: var(--white);
+    font-weight: var(--weight-bold);
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition-1);
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+/* 主盒子-1-图片 */
+
+.head .picture {
+    position: relative;
+    left: 50%;
+    margin-left: 100px;
+    width: 650px;
+    height: 500px;
+}
+
+.head .picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ * 主盒子-2-热门话题 
+ */
+
+.hottopics {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    left: 50%;
+    margin-left: -550px;
+    width: 1100px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid var(--border-prussian-blue);
+    background-color: var(--bg-oxford-blue);
+}
+
+/* 主盒子-2-描述 */
+
+.hottopics .intro {
+    position: relative;
+    top: 55px;
+    left: -30px;
+    width: 200px;
+    height: 240px;
+}
+
+.hottopics .intro h3{
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    font-size: 2rem;
+}
+
+.hottopics .intro p {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.hottopics .card {
+    position: relative;
+    left: 30px;
+    top: 40px;
+    width: 780px;
+    height: 280px;
+}
+
+.hottopics .card li {
+    float: left;
+    width: 240px;
+    height: 280px;
+}
+
+.hottopics .card li:nth-child(2),
+.hottopics .card li:nth-child(3) {
+    margin-left: 20px;
+}
+
+.hottopics .card .slider {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hottopics .card .slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.hottopics .card span {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    font-size: 20px;
+    color: var(--text-columbia-blue);
+    font-weight: 800;
+    transition: var(--transition-1);
+}
+
+.hottopics .card .slider:hover span {
+    color: var(--text-carolina-blue);
+}
+
+.hottopics .card p {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 
+ * 作者推荐 
+ */
+
+.EditorPick-font {
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -550px;
+    width: 1100px;
+    height: 200px;
+}
+
+/* 标题 */
+
+.EditorPick-font h1 {
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 45px;
+}
+
+/* 附着小字 */
+
+.EditorPick-font p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.EditorPick {
+    position: relative;
+    display: flex;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -555px;
+    width: 1110px;
+    height: 540px;
+}
+
+/* 卡片 */
+
+.EditorPick .card {
+    position: relative;
+    width: 480px;
+    height: 540px;
+    margin-left: 50px;
+    border-radius: 16px;
+    border: 1px solid var(--border-prussian-blue);
+    overflow: hidden;
+    transition: var(--transition-1);
+    background-color: var(--bg-oxford-blue);
+}
+
+.EditorPick .card:hover {
+    transform: translateY(-6px);
+}
+
+/* 图片 */
+
+.EditorPick .card .featured{
+    width: 440px;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.EditorPick .card .featured img {
+    width: 100%;
+    height: 100%;
+}
+
+.EditorPick .card p {
+    position: absolute;
+    margin-top: 14px;
+    right: 20px;
+    font-size: 16px;
+    color: var(--text-shadow-blue);
+}
+
+/* 文章标题 */
+
+.EditorPick .card .topic {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: var(--text-columbia-blue);
+    transition: var(--transition-1);
+}
+
+.EditorPick .card .topic:hover {
+    color: var(--text-carolina-blue);
+}
+
+/* 作者卡片 */
+
+.EditorPick .card .news {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 160px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.EditorPick .card .news .BlogHead {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.EditorPick .card .news h3 {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-size: 16px;
+}
+
+.EditorPick .card .news p {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 12px;
+}
+
+.EditorPick .card .news .BlogHead img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 阅读更多 */
+
+.EditorPick .card .readmore {
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    font-size: 20px;
+    color: var(--text-shadow-blue);
+    z-index: 1;
+}
+
+.EditorPick .card .readmore::before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: -20px;
+    bottom: -8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-oxford-blue-2);
+    z-index: -1;
+}
+
+/* 
+ * 作者推荐-辅助盒子 
+ */
+
+.AssistCard {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -575px;
+    width: 1150px;
+    height: 410px;
+}
+
+/* 辅助卡片 */
+
+.AssistCard .card {
+    position: relative;
+    height: 410px;
+    width: 360px;
+    margin-left: 18px;
+    border-radius: 16px;
+    border: 1px solid var(--border-prussian-blue);
+    overflow: hidden;
+    transition: var(--transition-1);
+    background-color: var(--bg-oxford-blue);
+}
+
+.AssistCard .card:hover {
+    transform: translateY(-6px);
+}
+
+/* 辅助-图片 */
+
+.AssistCard .card .featured {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.AssistCard .card .featured img {
+    width: 100%;
+    height: 100%;
+}
+
+.AssistCard .card p {
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+    font-size: 10px;
+}
+
+/* 辅助-文章标题 */
+
+.AssistCard .card .topic {
+    position: absolute;
+    margin-top: 50px;
+    left: 20px;
+    font-size: 25px;
+    color: var(--text-columbia-blue);
+    transition: var(--transition-1);
+}
+
+.AssistCard .card .topic:hover {
+    color: var(--text-carolina-blue);
+}
+
+/* 辅助-作者信息 */
+
+.AssistCard .card .news {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 16px;
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+}
+
+/* 辅助-作者头像 */
+
+.AssistCard .card .news .BlogHead {
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.AssistCard .card .news .BlogHead img {
+    width: 100%;
+    height: 100%;
+}
+
+.AssistCard .card .news h3 {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    font-size: 16px;
+}
+
+.AssistCard .card .news p {
+    position: absolute;
+    top: 18px;
+    left: 50px;
+}
+
+/* 辅助-阅读更多 */
+
+.AssistCard .card .readmore {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    font-size: 16px;
+    color: var(--text-shadow-blue);
+    z-index: 1;
+}
+
+.AssistCard .card .readmore::before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: -20px;
+    bottom: -10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-oxford-blue-2);
+    z-index: -1;
+}
+
+/* 
+ * 第二个按钮 
+ */
+
+.button {
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 60px;
+    height: 60px;
+    width: 200px;
+    border-radius:60px;
+    overflow: hidden;
+}
+
+.button a {
+    display: block;
+    width: 100%;
+    height: 100%;    
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    background-image: var(--gradient-2);
+    background-size: 200%;
+    color: var(--white);
+    font-weight: var(--weight-bold);
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition-1);
+}
+
+.button a:hover {
+    background-position: right;
+}
+
+/* 
+ * 流行标签 
+ */
+
+.PopularTags-font {
+    position: relative;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: 20px;
+    height: 250px;
+    width: 1100px;
+}
+
+.PopularTags-font h1{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 45px;
+}
+
+.PopularTags-font p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+/*
+ * 标签主体 
+ */
+
+.PopularTags {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    margin-left: -575px;
+    width: 1150px;
+}
+
+/* 内部小标签 */
+
+.PopularTags .tags {
+    float: left;
+    position: relative;
+    margin-left: 28px;
+    height: 70px;
+    width: 160px;
+    border-radius: 20px;
+    border: 1px solid var(--border-prussian-blue);
+    background-color: var(--bg-oxford-blue);
+}
+
+.PopularTags .tags:hover {
+    box-shadow: var(--shadow-2);
+    background-image: linear-gradient(var(--bg-oxford-blue), var(--bg-oxford-blue)), var(--gradient-1);
+    background-clip: padding-box, border-box;
+    border-color: transparent;
+    transform: translateY(-2px);
+    transition: var(--transition-1);
+    cursor: default;
+}
+
+.PopularTags .tags:nth-child(n + 7) {
+    margin-top: 30px;
+}
+
+/* 小标签内部的图片 */
+
+.PopularTags .tags .photo {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.PopularTags .tags .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 标签文字 */
+
+.PopularTags .tags p {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 20px;
+}
+
+
+/* 
+ * 最近的公告 
+ */
+
+.RecentNotice-font {
+    position: relative;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: 40px;
+    height: 250px;
+    width: 1100px;
+}
+
+.RecentNotice-font h1{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 45px;
+}
+
+.RecentNotice-font p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+/* 公告主体 */
+
+.RecentNotice {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    margin-left: -555px;
+    height: 900px;
+    width: 1110px;
+    /* background-color: purple; */
+}
+.RecentNotice .LargeView {
+    /* height: 10px; */
+    width: 670px;
+    /* background-color: skyblue; */
+}
+.RecentNotice .LargeView .view:nth-child(n) {
+    float: left;
+}
+
+/* 右边栏 */
+
+.RecentNotice .right {
+    margin-left: 30px;    
+    height: 800px;
+    width: 400px;
+}
+
+/* 公告栏 */
+.RecentNotice .right .notice {
+    height: 360px;
+    width: 400px;
+    border-radius: 20px;    
+    background-color: var(--bg-oxford-blue);
+    border: 1px solid var(--border-prussian-blue);
+}
+
+/* 
+ * 公告小标题 
+ */
+
+.RecentNotice .right .notice h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.RecentNotice .right .notice h3::after {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 3px;
+    background-color: var(--bg-carolina-blue);
+    margin-block-start: 10px;
+}
+
+/* 公告 / 动态*/
+
+.RecentNotice .right .notice .card,
+.RecentNotice .right .dynamic .card {
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.RecentNotice .right .notice .card .main,
+.RecentNotice .right .dynamic .card .main {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.RecentNotice .right .notice .card .time,
+.RecentNotice .right .dynamic .card .time {
+    position: absolute;
+    font-size: 16px;
+    bottom: 10px;
+    margin-left: 20px;
+    color: var(--text-shadow-blue);
+}
+
+.RecentNotice .right .notice .card:nth-child(n + 3),
+.RecentNotice .right .dynamic .card:nth-child(n + 3) {
+    border-top: 1px solid var(--border-prussian-blue);
+}
+
+/* 动态框 */
+
+.RecentNotice .right .dynamic {
+    position: relative;
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: var(--bg-oxford-blue);
+    border: 1px solid var(--border-prussian-blue);
+}
+
+/* 动态小标题 */
+
+.RecentNotice .right .dynamic h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.RecentNotice .right .dynamic h3::after {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 3px;
+    background-color: var(--bg-carolina-blue);
+    margin-block-start: 10px;
+}
+
+
+/*
+ * 结尾框 
+ */
+
+.ending {
+    position: relative;
+    margin-top: 40px;
+    left: 50%;
+    margin-left: -550px;
+    height: 650px;
+    width: 1100px;
+    border-radius: 40px;
+    border: 1px solid var(--border-prussian-blue);
+    background-color: var(--bg-oxford-blue);
+}
+
+/* 上半部盒子 */
+
+.ending .info {
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 50px;
+    height: 500px;
+    width: 1000px;
+    border-bottom: 1px solid var(--border-prussian-blue);
+}
+
+/* 三个子盒子 */
+
+.ending .info .card-1,
+.ending .info .card-2,
+.ending .info .card-3 {
+    position: relative;
+    width: 310px;
+    height: 450px;
+}
+
+.ending .info .card-2,
+.ending .info .card-3 {
+    margin-left: 36px;
+}
+
+/* 标志&昵称 */
+
+.ending .info .card-1 .news {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 240px;
+    height: 80px;
+}
+
+.ending .info .card-1 .news .favicon {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.ending .info .card-1 .news .favicon img {
+    height: 100%;
+    width: 100%;
+}
+
+.ending .info .card-1 .news h3 {
+    position: absolute;
+    font-size: 30px;
+    top: 16px;
+    left: 60px;
+}
+
+/* 作者的话 */
+
+.ending .info .card-1 p {
+    margin-top: 16px;
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* 作者喜好 */
+
+.ending .info .card-2 h3 {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 24px;
+}
+
+/* 标签框 */
+
+.ending .info .card-2 .content {
+    position: absolute;
+    top: 150px;
+    width: 310px;
+}
+
+.ending .info .card-2 .content .tag {
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+/* 反馈 */
+
+.ending .info .card-3 h3 {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 24px;
+}
+
+/* 文本框 */
+
+.ending .info .card-3 textarea {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    width: 280px;
+    height: 160px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;  
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--text-shadow-blue);
+    border: 1px solid rgb(14,166,236);
+}
+
+.ending .info .card-3 textarea:focus {
+    outline: none;
+    border: 1px solid rgb(14,166,236);
+}
+
+/* 提交按钮 */
+
+.ending .info .card-3 .btn {
+    position: absolute;
+    display: block;
+    top: 350px;
+    left: 40px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    background-image: var(--gradient-2);
+    background-size: 200%;
+    color: var(--white);
+    font-weight: var(--weight-bold);
+    align-items: center;
+    gap: 3px;
+    transition: var(--transition-1);
+}
+
+.ending .info .card-3 .btn:hover {
+    background-position: right;
+}
+
+/* 版权盒子 */
+
+.ending .copyright {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 900px;
+    height: 130px;
+}
+
+.ending .copyright p {
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.ending .copyright p a {
+    color: rgb(14,166,236);
+    font-style: italic;
+}
+
+
+/*
+ * 底部空间盒子 
+ */
+
+.bottom {
+    height: 40px;
+}

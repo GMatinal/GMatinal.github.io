@@ -1,0 +1,36 @@
+.interval {
+    height: 60px;
+}
+
+.plate-1 {
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 20px;
+    height: 400px;
+    width: 1200px;
+    border-radius: 10px;
+    border: 1px solid var(--border-prussian-blue);
+    background-color: var(--bg-oxford-blue);
+}
+
+.plate-1 h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.plate-1 ul li{
+    margin-top: 10px;
+    margin-left: 50px;
+    line-height: 28px;
+}
+
+.plate-1 ul li a {
+    font-size: 26px;
+    color: #a0afc6;
+}
+
+.plate-1 ul li a:hover {
+    color: var(--text-carolina-blue);
+}
